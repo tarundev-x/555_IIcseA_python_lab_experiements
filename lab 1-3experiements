@@ -1,0 +1,136 @@
+List of Experiments:
+1) Basic Programs
+1.1) Running instructions in Interactive interpreter and a Python Script
+
+
+solution:
+
+>>> a=9
+>>> print(a)
+9
+>>> type(a)
+<class 'int'>
+>>> a++
+SyntaxError: invalid syntax
+>>> a--
+SyntaxError: invalid syntax
+>>> ++a
+9
+>>> --a
+9
+>>> a=['tarun','dev','viki','devi']
+>>> print(a[0])
+tarun
+>>> a=5
+>>> b=5
+>>> print(a+b)
+10
+>>> 
+
+
+
+1.2) Implement a python script to purposefully raise Indentation Error and Correct it.
+
+program:
+
+if True:
+    print("true")
+     print("hi")#--->indentation error
+
+else:
+    print("false")
+
+#output: print("hi")
+        #>>>Indentation error
+        
+        
+        
+#with no indentation error
+
+
+if True:
+    print("true")
+    print("hi")
+
+else:
+    print("false")
+
+#output: >>>true
+             hi
+         >>>
+        
+
+2) Operations
+2.1) Implement a python script to compute distance between two points taking inp from 
+the user (Pythagorean Theorem).
+
+program:
+
+x1=int(input("Enter x1:"))
+x2=int(input("Enter x2:"))
+y1=int(input("Enter y1:"))
+y2=int(input("Enter y2:"))
+
+distance=(((x2-x1)**2+(y2-y1)**2))**0.5
+print(distance)
+
+output:
+Enter x1:4
+Enter x2:2
+Enter y1:5
+Enter y2:2
+3.605551275463989
+>>> 
+
+
+
+2.2) Implement a python script add.py that takes 2 numbers as command line arguments 
+and perform arithmetic operations on them.
+
+
+
+3) Control Flow
+3.1) Implement a python script for checking whether the citizen is eligible for vote or not.
+
+program:
+
+age=int(input("Enter your age"))
+
+if age>=18:
+    print("you are eligible to vote")
+else:
+    print("your are not eligible to vote")
+    
+    output:Enter your age20
+you are eligible to vote
+    
+
+
+
+
+3.2) Implement a python script using for loop that loops over a sequence.
+
+program:
+
+
+list=['A','D','I','T','A']
+
+for i in list:
+    print(i)
+
+output:A
+       D
+       I
+       T
+       Y
+       A
+
+
+
+3.3) Implement a python script that prompts the user for a number, and prints that number 
+in words. Example: Input :453 Output :Four Five Three
+Input :1000 Output :One Zero ZeroZero.
+
+
+program:
+
